@@ -6,13 +6,16 @@ Contoso Healthcare, Inc., has been a healthcare provider for over 20 years. They
 Three of the concerns Contoso Healthcare is trying solve are controlling costs, maintaining patient quality of care, and meeting regulation requirements. Because of the size of the healthcare system it is difficult to ensure that healthcare providers that are part of the Contoso Healthcare system monitor hospital and healthcare quality indicators.
 
 **Potential ideas**
-- Compliance guidelines
-- Security
-- Processes
-- Insight
-- KPIs
-- Trends
-- Inventory
+- Data culture
+- Executive sponsor
+- Content ownership and management
+- Content delivery scope
+- Center of Excellence
+- Governance
+- Mentoring and user enablement
+- Community and practice
+- User support
+- System oversight
 
 Contoso Healthcare needs the ability to collect and analyze data from within their systems in order to make the best uniform solution possible.
 They want to provide better visibility to patient data, physician and nurse performance, medical population and stations. 
@@ -23,10 +26,9 @@ July 2021
 
 ## Target audience
 - Power BI Specialists
-- Power BI Global Black Belts
-- Azure Specialists
-- App Specialists
-- Data and AI Specialists
+- Modern Work Intelligence TSs
+- Data & AI CSAs
+- Modern Work CSMs
 
 ## Abstracts
 
@@ -40,14 +42,19 @@ The primary goal for this system is to not just enable Power BI in the organizat
 
 ### Whiteboard design session
 
-In this whiteboard design session, you will use the [Power BI Adoption Framework ](https://github.com/pbiaf/powerbiadoption) and [Power BI enterprise deployment whitepaper](https://docs.microsoft.com/en-us/power-bi/guidance/whitepaper-powerbi-enterprise-deployment).  You will recommend guidance for deployment based on the following:
-- Adoption
+In this whiteboard design session, you will use the [Power BI Adoption Roadmap ](https://docs.microsoft.com/en-us/power-bi/guidance/powerbi-adoption-roadmap-overview) for broad planning purposes and the [Power BI enterprise deployment whitepaper](https://docs.microsoft.com/en-us/power-bi/guidance/whitepaper-powerbi-enterprise-deployment) for planning  technical implementation details.
+
+You will recommend guidance for deployment based on the following:
+- Data culture
+- Executive sponsor
+- Content ownership and management
+- Content delivery scope
+- Center of Excellence
 - Governance
-- Service Management
-- Security
-- Rollout and Support
-- Power BI Usage Scenarios
-- Power BI Architectural Choices
+- Mentoring and user enablement
+- Community and practice
+- User support
+- System oversight
 
 ## Azure services and related products
 
@@ -61,8 +68,9 @@ In this whiteboard design session, you will use the [Power BI Adoption Framework
 - Power BI Report Builder
 
 ## Related references
-- [Power BI Adoption Framework ](https://github.com/pbiaf/powerbiadoption)
-- [Power BI enterprise deployment whitepaper](https://docs.microsoft.com/en-us/power-bi/guidance/whitepaper-powerbi-enterprise-deployment)
+- [Power BI Adoption Roadmap ](https://docs.microsoft.com/en-us/power-bi/guidance/powerbi-adoption-roadmap-overview)
+  - [Power BI Adoption Framework ](https://github.com/pbiaf/powerbiadoption)
+  - [Power BI enterprise deployment whitepaper](https://docs.microsoft.com/en-us/power-bi/guidance/whitepaper-powerbi-enterprise-deployment)
 
 
 ## Help & Support
