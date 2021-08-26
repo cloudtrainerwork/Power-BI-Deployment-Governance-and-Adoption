@@ -351,26 +351,88 @@ Timeframe: 30 minutes (15 minutes per team presentation)
 
 ## Wrap-up
 
+**Timeframe**: 15 minutes
+Directions: Tables reconvene with the larger group to hear the facilitator/SME share the preferred solution for the
+case study.
+
 ## Additional references
 
 # Power BI Deployment & Adoption Planning Workshop trainer guide
 
 ## Step 1: Review the customer case study
 
-## Step 2: Design a proof of concept solution
+* Check in with your table participants to introduce yourself as the trainer.
+* Ask, "What questions do you have about the customer case study?"
+* Briefly review the steps and timeframes of the whiteboard design session.
+* Ready, set, go! Let the table participants begin.
+
 
 ## Step 2: Design a proof of concept solution
+
+* Check in with your tables to ensure that they are transitioning from step to step on time.
+* Provide some feedback on their responses to the business needs and design.
+    - Try asking questions first that will lead the participants to discover the answers on their own.
+* Provide feedback for their responses to the customer's objections.
+    - Try asking questions first that will lead the participants to discover the answers on their own
+
+
+## Step 2: Design a proof of concept solution
+* Determine which table will be paired with your table before Step 3 begins.
+* For the first round, assign one table as the presenting team and the other table as the customer.
+* Have the presenting team present their solution to the customer team.
+* Have the customer team provide one objection for the presenting team to respond to.
+* The presentation, objections, and feedback should take no longer than 15 minutes.
+* If needed, the trainer may also provide feedback.
 
 
 ## Step 3: Present the solution
 
+* Determine which table will be paired with your table before Step 3 begins.
+* For the first round, assign one table as the presenting team and the other table as the customer.
+* Have the presenting team present their solution to the customer team.
+     - Have the customer team provide one objection for the presenting team to respond to.
+    - The presentation, objections, and feedback should take no longer than 15 minutes.
+    - If needed, the trainer may also provide feedback
+
+
 ## Wrap-up
+
+Have the table participants reconvene with the larger session group to hear the facilitator/SME share the following preferred solution
 
 ## Preferred target audience
 
+* Ken Greenwood, Contoso Healthcare CTO
+* Laura Knight, Contoso Healthcare CISO
+* Desktop Administrators
+* Service Delivery Managers
+* Infrastructure, Virtualization, Storage, and Networking Teams
+
+
 ## Preferred solution 
 
+**Large Team Collaboration and Distribution**
+As part of the preferred solution, teams should be focusing on the Microsoft Cloud Adoption Framework for Azure in their response
+
+![](largeenv.png)
+
+
+
 #### High-level architecture
+
+* **Data culture** - Enterprise BI: All content is owned and managed by a centralized team such as IT, enterprise BI, or the Center of Excellence (COE).
+    ![](dataculture.png)
+* **Executive sponsor** - Top-down pattern. The ideal situation would be to hire a (CDO) Chief Data Officer. Having a Power BI executive sponsor at the C-level is an excellent indicator. It indicates that the organization recognizes the importance of data as a strategic asset and is advancing its data culture in a positive direction.  
+https://docs.microsoft.com/en-us/power-bi/guidance/powerbi-adoption-roadmap-executive-sponsorship#top-down-pattern
+* **Content ownership and management** - 
+        ![](content.png)
+* **Content delivery scope**
+* **Center of Excellence**
+* **Governance**
+* **Mentoring and user enablement**
+* **Community and practice**
+* **User support**
+* **System oversight**
+
 
 #### Data transformation and processing
 
@@ -378,11 +440,23 @@ Timeframe: 30 minutes (15 minutes per team presentation)
 
 #### Data analytics
 
+
 ### Customer Needs
+
+
+#### Envison pitch
+
+#### Business case
+
+#### 
 
 ### Checklist of preferred objection handling
 
 ## Customer quote (to be read back to the attendees at the end)
+
+"Microsoft has designed a secure and manageable infrastructure that can grow with Contoso Healthcare. This depthand breadth will allow us to meet both our business needs and regulatory requirements for our applications. Not to mention ensuring that our healthcare practitioners will have access to the patient data that they need when they need it."
+
+Ken Greenwald, CTO of Contoso Healthcare
 
 ## Additional Resources  
 
