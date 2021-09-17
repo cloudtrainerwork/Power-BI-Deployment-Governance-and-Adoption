@@ -172,13 +172,9 @@ When participants are doing activities, you can **look ahead to refresh your mem
 
 ## Abstract and learning objectives
 
-Contoso Healthcare has been facing challenges by using outdated techniques and tools to keep track of the constantly changing healthcare industry. Among the challenges is keeping track and being notified of 
-
-- Inventory issues
-- Patient follow-up
-- Patient satisfaction
-
-Because of the disparate facilitates providing access to that information should also be trimmed because smaller physician offices should not be able to see information about the main hospital or other physician offices. Because the healthcare industry is very focused on acquisitions the deployment needs to be setup as something that is reproducible and scalable so setting up the environment and policies around it are extremely important. 
+Contoso Healthcare care has some groups in their organization that started utilizing Power BI with some success particularly in providing dashboards to the Operations staff. They have added several television widescreen monitors that display the dashboards so everyone can quickly understand the current call volume, current tickets outstanding and many other metrics. Due to various individuals walking by the Operations department there have been many requests from other parts of the organization on to create the same kind of dashboards. The Emergency department subsequently has worked with IT and created their own dashboards that provide current wait times, scheduling, and call volumes. IT is getting more and more requests to provide additional Power BI reports after people hearing about and seeing the dashboards. But they dont have any ability to provide support or govern who has access to the data in the reports. 
+Because of the ad-hoc requests to build reports with Power BI there are some questions starting to come up as to the value of some of the reports and also who should be maintaining and supporting them. Additionally, there are questions whether different parts of the organization would be able to self-service their report needs or even provide train the trainer courses. 
+While the IT staff have a strong background in data they are limited in knowledge with controlling the proliferation of reports as they are being added in the organization. Currently, there are no plans to provide documentation or even best practices because the current implementations are very ad-hoc and narrow in scope. Because of the disparate facilitates providing access to that information should also be trimmed because smaller physician offices should not be able to see information about the main hospital or other physician offices. Because the healthcare industry is very focused on acquisitions the deployment needs to be setup as something that is reproducible and scalable so setting up the environment and policies around it are extremely important. 
 
 ## Step 1: Review the customer case study
 
