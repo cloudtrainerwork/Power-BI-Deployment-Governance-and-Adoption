@@ -353,9 +353,10 @@ https://docs.microsoft.com/en-us/power-bi/guidance/powerbi-adoption-roadmap-cont
 
 ![](contentowndermgmt.png)
 
-•	Content delivery scope - 
-Content delivery - Departmental BI: Delivers content to a large number of consumers, who can belong to a department or business unit.
-Content creators - Departmental BI: Involves a smaller population of creators. They are likely to be considered power users who are using sophisticated tools to create sophisticated solutions. Managed self-service BI practices are very common and highly encouraged.
+•	**Content delivery scope** - 
+ - **Content delivery** - <u>Departmental BI</u>: Delivers content to a large number of consumers, who can belong to a department or business unit.
+ - **Content creators** - <u>Departmental BI</u>: Involves a smaller population of creators. They are likely to be considered power users who are using sophisticated tools to create sophisticated solutions. Managed self-service BI practices are very common and highly encouraged.  
+https://docs.microsoft.com/en-us/power-bi/guidance/powerbi-adoption-roadmap-content-delivery-scope#departmental-bi 
 
 ![](targetconsumers.png)
 
