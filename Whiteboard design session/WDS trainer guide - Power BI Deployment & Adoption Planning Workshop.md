@@ -146,8 +146,6 @@ Before conducting your first whiteboard design session:
 
 ## During the whiteboard design session: Tips for an effective whiteboard design session
 
-**Refer to the Trainer guide** to stay on track and observe the timings.
-
 **Do not expect to memorize every detail** of the whiteboard design session.
 
 When participants are doing activities, you can **look ahead to refresh your memory**.
@@ -170,11 +168,21 @@ When participants are doing activities, you can **look ahead to refresh your mem
 
 # Power BI Deployment & Adoption Planning Workshop student guide
 
-## Abstract and learning objectives
+## Case study
 
-Contoso Healthcare care has some groups in their organization that started utilizing Power BI with some success particularly in providing dashboards to the Operations staff. They have added several television widescreen monitors that display the dashboards so everyone can quickly understand the current call volume, current tickets outstanding and many other metrics. Due to various individuals walking by the Operations department there have been many requests from other parts of the organization on to create the same kind of dashboards. The Emergency department subsequently has worked with IT and created their own dashboards that provide current wait times, scheduling, and call volumes. IT is getting more and more requests to provide additional Power BI reports after people hearing about and seeing the dashboards. But they dont have any ability to provide support or govern who has access to the data in the reports. 
-Because of the ad-hoc requests to build reports with Power BI there are some questions starting to come up as to the value of some of the reports and also who should be maintaining and supporting them. Additionally, there are questions whether different parts of the organization would be able to self-service their report needs or even provide train the trainer courses. 
-While the IT staff have a strong background in data they are limited in knowledge with controlling the proliferation of reports as they are being added in the organization. Currently, there are no plans to provide documentation or even best practices because the current implementations are very ad-hoc and narrow in scope. Because of the disparate facilitates providing access to that information should also be trimmed because smaller physician offices should not be able to see information about the main hospital or other physician offices. Because the healthcare industry is very focused on acquisitions the deployment needs to be setup as something that is reproducible and scalable so setting up the environment and policies around it are extremely important. 
+Contoso Healthcare has some groups in their organization that started utilizing Power BI with some success particularly in providing dashboards to the Operations staff. They have added several widescreen monitors that display the dashboards so everyone can quickly understand the current call volume, current tickets outstanding and many other metrics.
+
+Due to various individuals walking by the Operations department there have been many requests from other parts of the organization on to create the same kind of dashboards. The Emergency department subsequently has worked with IT and created their own dashboards that provide current wait times, scheduling, and call volumes.
+
+IT is getting more and more requests to provide additional Power BI reports after people hearing about and seeing the dashboards. But they don’t have any ability to provide support or govern who has access to the data in the reports. Because of the ad-hoc requests to build reports with Power BI there are some questions starting to come up as to the value of some of the reports and also who should be maintaining and supporting them.
+
+Additionally, there are questions whether different parts of the organization would be able to self-service their report needs or even provide train the trainer courses. While the IT staff have a strong background in data, they are limited in knowledge with controlling the proliferation of reports as they are being added in the organization. Currently, there are no plans to provide documentation or even best practices because the current implementations are very ad-hoc and narrow in scope.
+
+Because of the disparate facilitates providing access to that information should also be trimmed because smaller physician offices should not be able to see information about the main hospital or other physician offices.
+
+Because the healthcare industry is very focused on acquisitions the deployment needs to be setup as something that is reproducible and scalable so setting up the environment and policies around it are extremely important.
+
+
 
 ## Step 1: Review the customer case study
 
@@ -184,65 +192,74 @@ Analyze your customer's needs.
 
 Timeframe: 15 minutes
 
-Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips.
+Directions: With all participants in the session, the facilitator/SME presents an overview of the case study.
 
 1.  Meet your table participants and trainer.
 
 1.  Read all of the directions for steps 1-3 in the student guide.
 
-1.  As a table team, review the following customer case study.
+1.  As a table team, review the following and identify opportunities with the Power BI Adoption Framework in mind.
 
-### Customer situation
+### Customer case study continued
 Contoso Healthcare has been in their original location for 20 years and currently focused on expansion and acquisition. There are currently 10,000 employees that are in their Azure Active Directory and they currently have 20 satellite physician offices with a goal of more than doubling that number in the next 2 years. The satellite offices are unique because every office is an acquisition and they need to immediately begin using the parent organizations procedures and standards for quality care. So they need their existing data integrated as fast as possible.
 
-Because of the size of the organization and the assumption that all technology is led through IT efforts there has not been a focus on providing Business Intelligence capabilities to the organization. Currently the main source of reports is generated by hand  utilizing Excel and shared either by email or SharePoint. Because of how reports are currently handled there are ongoing concerns over different parts of the organization having access to reports they should not have access to. 
-Additionally, with all the reports generated by hand and also many legacy reports being used for many years there is no consistency. With many new offices being assimilated they tend to have their own methodologies for generating reports and this creates even more inconsistency. Also if someone does reach out to support to look for either a template or a best practice there is no information available to provide. No individual has provided any training or mentoring to the the support staff or online. So the situation never gets better because there is a 
+Because of the size of the organization and the assumption that all technology is led through IT efforts there has not been a focus on providing Business Intelligence capabilities to the organization. Currently the main source of reports is generated by hand utilizing Excel and shared either by email or SharePoint.
+Because of how reports are currently handled there are ongoing concerns over different parts of the organization having access to reports they should not have access to. 
 
-- a lack of standards
-- lack of documentation 
-- no one has been empowered to start the process
+Additionally, with all the reports generated by hand and also many legacy reports being used for many years there is no consistency. With many new offices being assimilated they tend to have their own methodologies for generating reports and this creates even more inconsistency.
 
-With the increasing organization size the IT department has become a hindrance in not only providing access to systems because there no plan to govern who has access, how long they will need access, and what kind of access they would need. 
+Also, if someone does reach out to support to look for either a template or a best practice there is no information available to provide. No individual has provided any training or mentoring to the support staff or online. So, the situation never gets better because there is a
+
+ - a lack of standards
+ - lack of documentation
+ - no one has been empowered to start the process
+ 
+With the increasing organization size the IT department has become a hindrance in not only providing access to systems because there no plan to govern who has access, how long they will need access, and what kind of access they would need.
+
 
 
 
 ### Customer needs
-1. Use existing on-premise data in the cloud reports
-2. They would also like to minimize the operational overhead within their current processes.
-3. They would like to have a release schedule as this gets implemented rather than a single launch. 
-4. Provide a central repository of best practices, support questions and answers,  
-5. Provide a plan for governing when new reports are needed and when they can be eliminated. 
-6. An archiving strategy for existing reports 
+Utilize the Power BI Adoption Roadmap to define the best option(s) for adopting Power BI in the organization.
+1.	**Maturity level** – The organization is looking to move past undocumented practices and tribal knowledge.
+2.	**Executive sponsor** – The CEO is looking at hiring a Chief Data Officer to lead the organization and assist with adoption.
+3.	**Content ownership** – The organization realizes that IT can be a bottle-neck and wants smaller parts of the organization to be in charge of the content.
+4.	**Content delivery scope** – Both the content consumers and content creators are going to be very specific to the departments they belong too. 
+5.	**Center of Excellence** – The organization would like to take the existing teams that are having positive results and allow them to share knowledge to other teams.
+6.	**Governance** – To prevent delays in adoption the organization would like to start with loose governance standards and add more as time goes on.
+7.	**Mentoring and user enablement** – The organization has experience using a “train the trainer” methodology in the past and would like to continue using that in the future. 
+8.	**Community of practice** - The organization has experience using a “train the trainer” methodology in the past and would like to continue using that in the future. This includes lunch & learns and using SharePoint as a knowledge sharing tool. 
+9.	**User Support** – The organization would like to utilize their existing Support desk for user support. 
+
 
 
 ### Customer objections
 1. No migrations of existing data is in scope
 2. Net new data storage can potentially stored in the cloud
-3. How can we ensure HIPAA Compliance and also eliminate the potential for different offices from seeing each others information?
+3. How can we ensure compliance and also eliminate the potential for different offices from seeing each others information?
 
 
 
-### Infographic for common scenarios
+### Infographic for Power BI Adoption
 
 When implementing Power BI in an organization it is important to understand all the different facets that make up a proper implementation.
 
 ![](roadmap.png)
 
-## Step 2 Design a proof of concept
+## Step 2 Plan Adoption Plan Strategy 
 
 ### Outcome
 
-Design a solution and prepare to present the solution to the target customer audience in a 15-minute chalk-talk format.
+Based on the customer needs design a Adoption Plan Strategy that fits.
 
 **Timeframe**: 60 minutes
 
 ### Business needs
 
 Directions: With all participants at your table, answer the following questions and list the answers on a flip chart:
+1.	Who should you present this solution to? Who is your target customer audience? Who are the decision makers?
+2.	What customer business needs do you need to address with your solution?
 
-1. Who should you present this solution to? Who is your target customer audience? Who are the decision makers?
-
-2. What customer business needs do you need to address with your solution?
 
 ### Design
 
@@ -250,68 +267,11 @@ Directions: With all participants at your table, respond to the following questi
 
 #### Envision pitch
 
-1. How will you tie the business needs of Contoso Healthcare to a positioning statement and value proposition to migrate to implement Power BI?
-2. Design a solution and prepare to present the solution that incorporates the Adoption Roadmap/Framework to plan an implementation to the target customer audience in a 15-minute PowerPoint format.
-
-#### Business case
-Build a business case for licensing optimization gained from an Azure migration. Provide the economic and
-operational benefits to quantify, educate, and guide the customer through Cloud Economics best practices.
-1. How can you address Contoso's business needs for economic and operational efficiency?
-2. What opportunities are available to optimize licensing and lower overall costs to Contoso?
-
-#### High-level solution
-1. Without getting into the details (the following sections will address the particular details), diagram your initial vision for handling the top-level requirements for:
-
-    - Data culture
-    - Executive sponsor
-    - Content ownership and management
-    - Content delivery scope
-    - Center of Excellence
-    - Governance
-    - Mentoring and user enablement
-    - Community and practice
-    - User support
-    - System oversight
-    
-Besides addressing the core functional requirements, consider the resiliency and cost optimization provisions that Contoso is looking for.
-
-#### Processes and procedures
-
-1. Based on the requirements what recommended guidance would you suggest for Contoso Healthcare?
-2. What kind of usage scenarios would suggest based on the requirements?
-3. What kind of licensing would you suggest for Contoso Healthcare?
-4. What kind of data protection would you suggest for Contoso Healthcare?
-5. What do you 
-
-#### Data ingestion and integration
-1. Which Azure services can you use to ingest data from the named sources. 
-2. Of the options you identified in the previous step, which ones would you recommend to Contoso Healthcare?
-3. What data integration options would Contoso Healthcare benefit from?
-4. Which Azure integration services would you recommend to be used by Contoso Healthcare?
+1.	How will you tie the business needs of Contoso Healthcare to adopt Power BI?
+2.	Design a solution and prepare to present the solution that incorporates the Adoption Roadmap/Framework to plan an adoption plan to the target customer audience in a 15-minute PowerPoint format.
 
 
-#### Data transformation and processing
 
-1. What types of data transformation and processing do you anticipate you might need to address the Contoso Healthcare's needs?
-2. Which Azure services would you use to implement the corresponding functionality?
-
-#### Data integration
-
-1. What data integration options would Contoso Healthcare benefit from?
-2. Which Azure integration services would you recommend to be used by Contoso Healthcare?
-
-#### Data analytics
-
-1. How would you analyze the data to facilitate identifying relevant information?
-2. What Azure services would allow Contoso Healthcare to further enrich the data by leveraging technologies such as artificial intelligence?
-
-## Prepare
-
-**Directions**: With all participants at your table:
-1. Identify any customer needs that are not addressed with the proposed solution.
-2. Identify the benefits of your solution.
-3. Determine how you will respond to the customer's objections.
-Prepare a 15-minute PowerPoint style presentation to the customer
 
 ## Step 3: Present the solution
 
@@ -319,7 +279,7 @@ Prepare a 15-minute PowerPoint style presentation to the customer
 
 Present a solution to the target customer audience in a 15-minute PowerPoint presentation format.
 
-Validate the value proposition with the customer needs. Identify the the customer needs in from the Power BI Roadmap/Framework. The presentation should outline the Business Case, success criteria for a successful migration, and address all customer needs and objections.
+Validate and identify the customer needs in from the Power BI Roadmap/Framework. The presentation should outline the adoption of the Power BI Roadmap/Framework
 
 Timeframe: 30 minutes (15 minutes per team presentation)
 
@@ -384,58 +344,47 @@ case study.
 
 Have the table participants reconvene with the larger session group to hear the facilitator/SME share the following preferred solution
 
-## Preferred target audience
-
-* Ken Greenwood, Contoso Healthcare CTO
-* Laura Knight, Contoso Healthcare CISO
-* Desktop Administrators
-* Service Delivery Managers
-* Infrastructure, Virtualization, Storage, and Networking Teams
-
-
 ## Preferred solution 
-
-**Large Team Collaboration and Distribution**
-As part of the preferred solution, teams should be focusing on the Microsoft Cloud Adoption Framework for Azure in their response
-
-![](largeenv.png)
-
-
-
-#### High-level architecture
-
-* **Data culture** - Enterprise BI: All content is owned and managed by a centralized team such as IT, enterprise BI, or the Center of Excellence (COE).
-    ![](dataculture.png)
-* **Executive sponsor** - Top-down pattern. The ideal situation would be to hire a (CDO) Chief Data Officer. Having a Power BI executive sponsor at the C-level is an excellent indicator. It indicates that the organization recognizes the importance of data as a strategic asset and is advancing its data culture in a positive direction.  
+•	**Executive sponsor** - <u>Top-down pattern</u>. The ideal situation would be to hire a (CDO) Chief Data Officer. Having a Power BI executive sponsor at the C-level is an excellent indicator. It indicates that the organization recognizes the importance of data as a strategic asset and is advancing its data culture in a positive direction.
 https://docs.microsoft.com/en-us/power-bi/guidance/powerbi-adoption-roadmap-executive-sponsorship#top-down-pattern
-* **Content ownership and management** - 
-        ![](content.png)
-* **Content delivery scope**
-* **Center of Excellence**
-* **Governance**
-* **Mentoring and user enablement**
-* **Community and practice**
-* **User support**
-* **System oversight**
+
+•	**Content ownership and management** - <u>Business-led self-service</u> BI: All content is owned and managed by the creators and subject matter experts within a business unit. This ownership strategy is also known as a decentralized or bottom-up BI strategy.
+https://docs.microsoft.com/en-us/power-bi/guidance/powerbi-adoption-roadmap-content-ownership-and-management#business-led-self-service-bi 
+
+![](contentowndermgmt.png)
+
+•	Content delivery scope - 
+Content delivery - Departmental BI: Delivers content to a large number of consumers, who can belong to a department or business unit.
+Content creators - Departmental BI: Involves a smaller population of creators. They are likely to be considered power users who are using sophisticated tools to create sophisticated solutions. Managed self-service BI practices are very common and highly encouraged.
+
+![](targetconsumers.png)
+
+![](targetcreators.png)
+
+•	**Center of Excellence** - <u>Federated COE</u>: A federated COE comprises a shared services team plus satellite members from each functional area or major business unit. A federated team works in coordination, even though its members reside in different business units. Typically, satellite members are primarily focused on development activities to support their business unit while the shared services personnel support the entire community.
+https://docs.microsoft.com/en-us/power-bi/guidance/powerbi-adoption-roadmap-center-of-excellence#federated-coe
+
+•	**Governance** - <u>Method 3</u> seeks a balance between agility and governance. It's an ideal scenario that does just enough governance planning upfront. Frequent and continual governance improvements iteratively occur over time alongside Power BI development projects that deliver value.
+https://docs.microsoft.com/en-us/power-bi/guidance/powerbi-adoption-roadmap-governance#method-3-iterative-governance-with-rollouts
+
+![](governance.png)
+
+•	**Mentoring and user enablement** – A <u>co-development project</u> is a form of assistance offered by the COE where a user or business unit takes advantage of the technical expertise of the COE to solve business problems with data. Co-development involves stakeholders from the business unit and the COE working in partnership to build a high-quality self-service BI solution that the business stakeholders could not deliver independently.
+https://docs.microsoft.com/en-us/power-bi/guidance/powerbi-adoption-roadmap-mentoring-and-user-enablement#co-development-projects 
+
+![](codev.png)
+
+•	**Community and practice** - The overriding objective of a community of practice is to facilitate knowledge <u>sharing among colleagues and across organizational boundaries</u>. There are many ways knowledge sharing occurs. It could be during the normal course of work.
+https://docs.microsoft.com/en-us/power-bi/guidance/powerbi-adoption-roadmap-community-of-practice#knowledge-sharing 
+
+![](practice.png)
+
+•	**User support** - <u>Intra-team support</u> refers to when team members learn from and help each other during their daily work. People who emerge as your Power BI champions tend to take on this type of informal support role voluntarily because they have an intrinsic desire to help. Although it's an informal support mode, it should not be undervalued. Some estimates indicate that a large percentage of learning at work is peer learning, which is particularly helpful for analysts who are creating domain-specific Power BI solutions.
+https://docs.microsoft.com/en-us/power-bi/guidance/powerbi-adoption-roadmap-user-support#intra-team-support 
+
+![](usersupport.png)
 
 
-#### Data transformation and processing
-
-#### Data integration
-
-#### Data analytics
-
-
-### Customer Needs
-
-
-#### Envison pitch
-
-#### Business case
-
-#### 
-
-### Checklist of preferred objection handling
 
 ## Customer quote (to be read back to the attendees at the end)
 
